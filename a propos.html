@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - Agence de Voyage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <style>
+    /* Général */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 2px solid #ddd;
+}
+
+.navbar .nav-link {
+    font-weight: bold;
+}
+
+/* Section À propos */
+.a-propos {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.a-propos img {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 10px;
+    height: 50%;
+    width: 50%;
+}
+
+/* Mission et Vision */
+.mission-vision {
+    padding: 50px 0;
+}
+
+.mission-vision h3 {
+    color: #007bff;
+    background-color: violet;
+}
+.mission-vision p {
+    background-color: violet;
+}
+
+/* Équipe */
+.equipe .team-member {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.equipe .team-member:hover {
+    transform: translateY(-10px);
+}
+
+.equipe img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+}
+
+footer p {
+    margin: 0;
+}
+   </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Agence de Voyage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinations.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="a-propos.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section À propos -->
+    <section class="a-propos py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Bienvenue à l'Agence des Frères</h2>
+            <p class="lead">Nous sommes une agence de voyage passionnée qui vous aide à découvrir le monde avec des expériences uniques et inoubliables.</p>
+            <img src="agence-voyage-nouvelle-generation.jpg" alt="Agence de Voyage" class="img-fluid rounded mb-4">
+        </div>
+    </section>
+
+    <!-- Mission et Vision -->
+    <section class="mission-vision py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Notre Mission</h3>
+                    <p>Offrir des voyages de qualité, personnalisés selon les besoins de nos clients, avec un service exceptionnel.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Notre Vision</h3>
+                    <p>Devenir la première agence de voyage en offrant des expériences inégalées et des destinations exclusives à travers le monde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Équipe -->
+    <section class="equipe py-5">
+        <div class="container text-center">
+            <h3 class="mb-4">Notre Équipe</h3>
+            <div class="row">
+                <!-- Membre 1 -->
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="WhatsApp Image 2025-02-01 at 12.41.03.jpeg" alt="CEO" class="img-fluid rounded-circle mb-3">
+                        <h4>Amaray Aya</h4>
+                        <p>Fondateur et PDG</p>
+                    </div>
+                </div>
+                <!-- Membre 2 -->
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="WhatsApp Image 2025-02-02 at 18.11.35.jpeg" alt="Directrice" class="img-fluid rounded-circle mb-3">
+                        <h4>Amaray Salah Eddine</h4>
+                        <p>Responsable des destinations</p>
+                    </div>
+                </div>
+                <!-- Membre 3 -->
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="WhatsApp Image 2025-02-01 at 22.13.59.jpeg" alt="Responsable" class="img-fluid rounded-circle mb-3">
+                        <h4>Amaray Nouhaila</h4>
+                        <p>Responsable des opérations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Agence de Voyage. Tous droits réservés.</p>
+    </footer>
+
+</body>
+
+</html>

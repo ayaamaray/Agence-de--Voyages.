@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanger - Agence de Voyage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    * General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 2px solid #ddd;
+}
+
+.navbar .nav-link {
+    font-weight: bold;
+}
+
+/* Tokyo Info Section */
+.tokyo-info {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.tokyo-info img {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 10px;
+    height: 60;
+    width: 60%;
+}
+
+/* Attractions Section */
+.attractions .attraction-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.attractions .attraction-box:hover {
+    transform: translateY(-10px);
+}
+
+.attractions img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Restaurants Section */
+.restaurants .restaurant-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.restaurants .restaurant-box:hover {
+    transform: translateY(-10px);
+}
+
+.restaurants img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #222;
+}
+
+footer p {
+    margin: 0;
+}
+  </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Agence de Voyage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinations.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="tokyo.html">Tanger</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tokyo Info Section -->
+    <section class="tokyo-info py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Bienvenue à Tanger</h2>
+            <p class="lead">Tanger est une ville dynamique, située entre l'océan Atlantique et la mer Méditerranée. Son mélange unique de cultures, son port historique et sa vieille médina en font une destination incontournable.</p>
+            <img src="tagier-xxl-jpg_header-210396.jpeg" alt="Tanger" class="img-fluid rounded mb-4">
+            <p>Tanger est une ville du Nord du Maroc, capitale de la région de Tanger-Tétouan-Al Hoceïma et chef-lieu de la préfecture de Tanger-Assilah. Connue principalement pour ses lieux touristiques, elle est l'un des pôles économiques les plus importants du Maroc après Casablanca.</p>
+        </div>
+    </section>
+
+    <!-- Top Attractions Section -->
+    <section class="attractions py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Lieux Touristiques a Tanger</h3>
+            <div class="row">
+                <!-- Attraction 1 -->
+                <div class="col-md-4">
+                    <div class="attraction-box">
+                        <img src="tanger.jpg"alt="Cap Spartel" class="img-fluid rounded">
+                        <h4 class="mt-3">Cap Spartel</h4>
+                        <p>Un magnifique cap offrant une vue panoramique sur l'Atlantique.</p>
+                    </div>
+                </div>
+                <!-- Attraction 2 -->
+                <div class="col-md-4">
+                    <div class="attraction-box">
+                        <img src="tt.webp" alt="Grottes d'Hercule" class="img-fluid rounded">
+                        <h4 class="mt-3">Grottes d'Hercule</h4>
+                        <p>Un site naturel impressionnant avec une ouverture en forme de carte d'Afrique.</p>
+                    </div>
+                </div>
+                <!-- Attraction 3 -->
+                <div class="col-md-4">
+                    <div class="attraction-box">
+                        <img src="ruelle-medina-tanger-maroc-900x600.jpg"alt="Médina de Tanger" class="img-fluid rounded">
+                        <h4 class="mt-3">Médina de Tanger</h4>
+                        <p>Un dédale de ruelles animées, parfait pour découvrir l'artisanat marocain.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurants Section -->
+    <section class="restaurants py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center mb-4">Les Meilleurs Restaurants à Tanger</h3>
+            <div class="row">
+                <!-- Restaurant 1 -->
+                <div class="col-md-4">
+                    <div class="restaurant-box">
+                        <img src="el-morocco-750.png" alt="El Morocco Club" class="img-fluid rounded">
+                        <h4 class="mt-3">El Morocco Club</h4>
+                        <p>Un restaurant élégant proposant une cuisine marocaine et méditerranéenne raffinée..</p>
+                    </div>
+                </div>
+                <!-- Restaurant 2 -->
+                <div class="col-md-4">
+                    <div class="restaurant-box">
+                        <img src="Storefront-LeSaveurdu.webp" alt="Le Saveur" class="img-fluid rounded">
+                        <h4 class="mt-3">Le Saveur</h4>
+                        <p>Un restaurant français offrant des plats gastronomiques avec des produits locaux.</p>
+                    </div>
+                </div>
+                <!-- Restaurant 3 -->
+                <div class="col-md-4">
+                    <div class="restaurant-box">
+                        <img src="shutterstock_550966804.jpg" alt="La Table du Marché" class="img-fluid rounded">
+                        <h4 class="mt-3">La Table du Marché</h4>
+                        <p>Un restaurant moderne avec une cuisine fusion et une ambiance chic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Agence de Voyage. Tous droits réservés.</p>
+    </footer>
+
+</body>
+
+</html>

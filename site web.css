@@ -1,0 +1,32 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(agence-de-voyage.jpg)
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('agence-de-voyage.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero-section h1 {
+    color: #000;
+}
+
+
+/* Navbar */
+.navbar {
+    border-bottom: 2px solid #ddd;
+}
+
+.navbar .nav-link {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+}

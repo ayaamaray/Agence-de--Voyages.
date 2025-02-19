@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokyo - Agence de Voyage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    * General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 2px solid #ddd;
+}
+
+.navbar .nav-link {
+    font-weight: bold;
+}
+
+/* Tokyo Info Section */
+.tokyo-info {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.tokyo-info img {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 10px;
+    height: 60;
+    width: 60%;
+}
+
+/* Attractions Section */
+.attractions .attraction-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.attractions .attraction-box:hover {
+    transform: translateY(-10px);
+}
+
+.attractions img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Restaurants Section */
+.restaurants .restaurant-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.restaurants .restaurant-box:hover {
+    transform: translateY(-10px);
+}
+
+.restaurants img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #222;
+}
+
+footer p {
+    margin: 0;
+}
+  </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Agence de Voyage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinations.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="tokyo.html">Tokyo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tokyo Info Section -->
+    <section class="tokyo-info py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Bienvenue à Tokyo</h2>
+            <p class="lead">Tokyo est une métropole moderne où la technologie, la culture traditionnelle et la cuisine se
+                rencontrent. Explorez la ville et découvrez des attractions uniques, des restaurants de renom et des lieux
+                de loisirs étonnants.</p>
+            <img src="th (2).jpg" alt="Tokyo" class="img-fluid rounded mb-4">
+            <p>Tokyo est une destination fascinante qui vous offre une expérience inoubliable. De ses temples historiques
+                aux quartiers ultra-modernes comme Shibuya et Shinjuku, en passant par les célèbres lieux de jeux, vous
+                découvrirez une ville en constante évolution.</p>
+        </div>
+    </section>
+
+    <!-- Top Attractions Section -->
+    <section class="attractions py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Les Lieux Incontournables à Tokyo</h3>
+            <div class="row">
+                <!-- Attraction 1 -->
+                <div class="col-md-4">
+                    <div class="attraction-box">
+                        <img src="tk.jpg"alt="Senso-ji Temple" class="img-fluid rounded">
+                        <h4 class="mt-3">Temple Senso-ji</h4>
+                        <p>Un temple bouddhiste emblématique situé dans le quartier d'Asakusa. C'est le plus ancien temple de
+                            Tokyo et un lieu spirituel majeur.</p>
+                    </div>
+                </div>
+                <!-- Attraction 2 -->
+                <div class="col-md-4">
+                    <div class="attraction-box">
+                        <img src="Shibuya-Crossing.jpg" alt="Shibuya Crossing" class="img-fluid rounded">
+                        <h4 class="mt-3">Shibuya Crossing</h4>
+                        <p>Ce carrefour mondialement célèbre est un symbole de la modernité de Tokyo, connu pour sa foule et
+                            ses écrans géants.</p>
+                    </div>
+                </div>
+                <!-- Attraction 3 -->
+                <div class="col-md-4">
+                    <div class="attraction-box">
+                        <img src="tokyoskytree.jpg"alt="Tokyo Skytree" class="img-fluid rounded">
+                        <h4 class="mt-3">Tokyo Skytree</h4>
+                        <p>La plus haute structure de Tokyo, offrant une vue panoramique spectaculaire de la ville depuis
+                            ses plateformes d'observation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurants Section -->
+    <section class="restaurants py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center mb-4">Les Meilleurs Restaurants à Tokyo</h3>
+            <div class="row">
+                <!-- Restaurant 1 -->
+                <div class="col-md-4">
+                    <div class="restaurant-box">
+                        <img src="th (5).jpg" alt="Sukiyabashi Jiro" class="img-fluid rounded">
+                        <h4 class="mt-3">Sukiyabashi Jiro</h4>
+                        <p>Un restaurant de sushi 3 étoiles Michelin, reconnu pour sa cuisine exceptionnelle, et célèbre grâce
+                            au film "Jiro Dreams of Sushi".</p>
+                    </div>
+                </div>
+                <!-- Restaurant 2 -->
+                <div class="col-md-4">
+                    <div class="restaurant-box">
+                        <img src="th (9).jpg" alt="Narisawa" class="img-fluid rounded">
+                        <h4 class="mt-3">Narisawa</h4>
+                        <p>Un restaurant gastronomique, offrant une cuisine japonaise innovante et une expérience culinaire
+                            inoubliable.</p>
+                    </div>
+                </div>
+                <!-- Restaurant 3 -->
+                <div class="col-md-4">
+                    <div class="restaurant-box">
+                        <img src="th (8).jpg" alt="Kanda" class="img-fluid rounded">
+                        <h4 class="mt-3">Kanda</h4>
+                        <p>Un restaurant intime avec une cuisine japonaise de haute qualité, parfait pour une expérience
+                            culinaire exclusive.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Agence de Voyage. Tous droits réservés.</p>
+    </footer>
+
+</body>
+
+</html>
